@@ -1,12 +1,7 @@
 {
-  "name": "wasm-pdf",
+  "name": "@preetjdp/wasm-pdf",
   "version": "1.0.0",
   "description": "Generate PDF files with JavaScript and WebAssembly.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jussiniinikoski/wasm-pdf.git"
-  },
-  "author": "Jussi Niinikoski <jussi.niinikoski@perjantai.fi>",
   "license": "(MIT OR Apache-2.0)",
   "keywords": [
     "webassembly",

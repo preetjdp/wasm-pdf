@@ -13,7 +13,8 @@ module.exports = {
             template: 'index.html'
         }),
         new WasmPackPlugin({
-            crateDirectory: path.resolve(__dirname, ".")
+            crateDirectory: path.resolve(__dirname, "."),
+            extraArgs: "--target web",
         }),
     ],
     devtool: 'inline-source-map',
